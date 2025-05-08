@@ -5,11 +5,11 @@ local volumeMappings = {
     -- 卷 UUID  -> 挂载路径
     -- 请自行修改为您实际的卷UUID以及期望挂载路径
     -- 崩坏:星穹铁道
-    { uuid = "D8A6ED7A-4666-42BF-855A-BC8D298A0317", mountPoint = "/Users/username/Library/Containers/com.miHoYo.hkrpg" },
+    { uuid = "D8A6ED7A-4666-42BF-855A-BC8D298A0317", mountPoint = "/Users/<你的用户名>/Library/Containers/com.miHoYo.hkrpg" },
     -- 崩坏3 (从App Store安装，路径为系统自动生成，请自行修改)
-    { uuid = "956CBF59-E2C7-41F7-8688-500ABA61B74B", mountPoint = "/Users/username/Library/Containers/DAD8543B-922E-42E2-AFCE-C2CF8D229947" },
+    { uuid = "956CBF59-E2C7-41F7-8688-500ABA61B74B", mountPoint = "/Users/<你的用户名>/Library/Containers/DAD8543B-922E-42E2-AFCE-C2CF8D229947" },
     -- 绝区零
-    { uuid = "40CC7285-6035-4BCF-84DB-8D257A08BC0E", mountPoint = "/Users/username/Library/Containers/com.miHoYo.Nap" }
+    { uuid = "40CC7285-6035-4BCF-84DB-8D257A08BC0E", mountPoint = "/Users/<你的用户名>/Library/Containers/com.miHoYo.Nap" }
 }
 
 -- 执行挂载逻辑：检查设备和挂载卷
