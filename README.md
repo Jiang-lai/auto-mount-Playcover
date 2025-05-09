@@ -57,7 +57,7 @@
    在打开的文件中添加：
 
    ```text
-   <你的用户名> ALL=(root) NOPASSWD: /usr/bin/mount_apfs
+   <你的用户名> ALL=(root) NOPASSWD: /sbin/mount_apfs
    <你的用户名> ALL=(root) NOPASSWD: /usr/sbin/diskutil
    ```
 6. 保存并退出，确保没有语法错误。
