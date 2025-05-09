@@ -87,7 +87,7 @@
   * 请执行 `diskutil list -plist` 并确认 `PartitionUUID`。
 * **脚本找不到 **\`\`**？**
 
-  * 请确认 `which mount_apfs` 输出 `/usr/bin/mount_apfs`。
+  * 请确认 `which mount_apfs` 输出 `/sbin/mount_apfs`。
 * **挂载后仍在 Finder 侧边栏可见？**
 
   * 如果启用了 `nobrowse`，请重启 Finder 或取消该选项。
